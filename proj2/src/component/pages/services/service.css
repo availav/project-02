@@ -1,0 +1,55 @@
+.icon-box:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.icon-box:hover .icon svg {
+    fill: blue; /* Change to the desired color */
+}
+.icon-box{
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    background: #fff;
+
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+
+.icon{
+    margin-bottom: 10px;
+}
+.icon-box h5{
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.icon-box:hover h5 {
+    color: blue; /* Change to the desired color */
+}
+
+.icon-box p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.service{
+    background-color: #f3f5fa;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.svc h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+
+}

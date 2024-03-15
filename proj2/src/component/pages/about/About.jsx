@@ -5,7 +5,7 @@ function About() {
     <section id="about">
         <div className="container-fluid about">
             <div className="section-title">
-                <p>About Us</p>
+                <p className="namanra"> About Us</p>
                 <div className="undeline"></div>
             </div>
             <div className="row content">

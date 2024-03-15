@@ -6,7 +6,7 @@ import "./main.css"
 function Main() {
   return (
    <section id="main">
-    <div className="container">
+    <div className="container-fluid mainlogo">
         <div className="row">
             <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <img src={logo1} alt=""  className="img-fluid logo" />

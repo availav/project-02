@@ -1,0 +1,14 @@
+.skills-heading h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
+}
+
+.skills-heading p {
+    font-style: italic;
+}
+.skills-heading{
+    padding: 30px;
+}
+
