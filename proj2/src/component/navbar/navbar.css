@@ -20,5 +20,13 @@
     align-items: baseline;
     
 }
+.whi {
+    color: white !important; 
+  }
+  
+ 
+  .whi.active {
+    font-weight: bold; 
+  }
 
 

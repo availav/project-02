@@ -26,6 +26,9 @@ function Skills() {
 
                    <span>Javascript</span>
                    <ProgressBar now={50}  className="progress" />
+                   
+                   <span>React</span>
+                   <ProgressBar now={70}  className="progress" />
                    </div>
 
                 </div>

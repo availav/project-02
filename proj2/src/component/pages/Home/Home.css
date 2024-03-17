@@ -73,3 +73,15 @@ p {
     width: 400px;
     height: 400px;
 }
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust this value to control the distance of the movement */
+  }
+}
+
+.homeimg {
+  animation: moveUpDown 2s ease-in-out infinite; /* Adjust the duration (2s) as needed */
+}
